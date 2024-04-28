@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  background-color: #ece6e3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.heading {
+  font-size: 50px;
+  text-align: center;
+}
+
+.recipe-book-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 50px;
+}
+
+.recipe-card {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  border: 1px solid #c1b1a6;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #8d988d;
+}
+
+.food-image {
+  width: 100%;
+  height: 100%;
+}
+
+.food-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.food-info {
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: #cebfb6;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  flex-grow: 1;
+}
+
+.search-input {
+  width: 40%;
+  padding: 8px 12px;
+  border: 1px solid #c1b1a6;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.filter-container {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-button {
+  background-color: #c1b1a6;
+  color: #ece6e3;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-button.active {
+  background-color: #9aa0a3;
+}
+
+.clear-filters-button {
+  background-color: #8d988d;
+  color: #ece6e3;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.favorites-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.favorites-button {
+  background-color: #c1b1a6;
+  color: #ece6e3;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.favorites-button.active {
+  background-color: #9aa0a3;
+}
+
+.title {
+  color: #ece6e3;
+  text-decoration: underline;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Platypi", sans-serif;
+}
+
+.description {
+  font-size: 1.3rem;
+  color: #ece6e3;
+  font-family: "Noto", serif;
+}
+
+.info {
+  color: #ece6e3;
+  list-style: none;
+}
+
+.fav-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #c1b1a6;
+  color: #ece6e3;
+  font-size: 15px;
+}
+
+.fav-btn:hover {
+  background-color: #ece6e3;
+  color: #c1b1a6;
+  transition: 0.6s background-color;
+}
+
+.dietary {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ece6e3;
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "name": "Vegetarian Lasagna",
+    "description": "A delicious and healthy vegetarian lasagna.",
+    "time": "1 hour",
+    "imageName": "images/lasagna.png",
+    "ingredients": [
+      "Lasagna noodles",
+      "Tomato sauce",
+      "Spinach",
+      "Ricotta cheese"
+    ],
+    "dietary": ["Vegetarian"]
+  },
+  {
+    "id": 2,
+    "name": "Grilled Chicken Salad",
+    "description": "A refreshing and protein-packed salad.",
+    "time": "30 minutes",
+    "imageName": "images/chicken.png",
+    "ingredients": [
+      "Chicken breasts",
+      "Lettuce",
+      "Tomatoes",
+      "Avocado",
+      "Balsamic vinaigrette"
+    ],
+    "dietary": ["Keto", "Gluten-free"]
+  },
+  {
+    "id": 3,
+    "name": "Chocolate Lava Cake",
+    "description": "A decadent and indulgent chocolate dessert.",
+    "time": "45 minutes",
+    "imageName": "images/cake.png",
+    "ingredients": ["Chocolate", "Eggs", "Butter", "Flour"],
+    "dietary": ["Dessert"]
+  },
+  {
+    "id": 4,
+    "name": "Vegetable Stir-Fry",
+    "description": "A quick and healthy vegetable stir-fry that's packed with flavor.",
+    "time": "20 minutes",
+    "imageName": "images/stirFry.png",
+    "ingredients": [
+      "Mixed vegetables",
+      "Soy sauce",
+      "Garlic",
+      "Ginger",
+      "Sesame oil"
+    ],
+    "dietary": ["Vegetarian"]
+  },
+  {
+    "id": 5,
+    "name": "Mediterranean Quinoa Salad",
+    "description": "A light and refreshing salad with Mediterranean flavors.",
+    "time": "25 minutes",
+    "imageName": "images/salad.png",
+    "ingredients": [
+      "Quinoa",
+      "Cucumber",
+      "Cherry tomatoes",
+      "Fresh parsely",
+      "Olive oil"
+    ],
+    "dietary": ["Gluten-free"]
+  },
+  {
+    "id": 6,
+    "name": "Thai Green Curry",
+    "description": "A fragrant and creamy Thai curry that's bursting with flavor.",
+    "time": "40 minutes",
+    "imageName": "images/thai.png",
+    "ingredients": [
+      "Green curry paste",
+      "Coconut milk",
+      "Cherry tomatoes",
+      "Mixed vegetables",
+      "Thai basil leaves"
+    ],
+    "dietary": ["Vegetarian", "Gluten-free"]
+  }
+]
